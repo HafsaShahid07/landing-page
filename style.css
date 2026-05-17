@@ -53,7 +53,7 @@
 .hero-text {
     font-size: 18px;
     color: #E5E7EB;
-    padding-right:50px ;
+    padding-right: 50px;
 }
 
 
@@ -125,7 +125,7 @@
 
 /* quotes */
 
-.quote{
+.quote {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,27 +134,30 @@
     width: 0 auto;
     background-color: #E5E7EB;
 }
-.quote-author{
+
+.quote-author {
     display: flex;
     justify-content: end;
 }
 
 /* sign up box */
-.sign-up-box{
-width : 800px;
-padding: 20px;
-border-radius: 10px;
-margin:50px auto;
-display: flex;
-background-color: #3B82F6;
-}
-.sign-up-button{
+.sign-up-box {
+    width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
     display: flex;
-    width:50%;
+    background-color: #3B82F6;
+}
+
+.sign-up-button {
+    display: flex;
+    width: 50%;
     align-items: center;
     justify-content: center;
 }
-.sign-up-box button{
+
+.sign-up-box button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -163,4 +166,13 @@ background-color: #3B82F6;
     color: #ffffff;
     font-size: 16px;
     border: 2px solid #E5E7EB;
+}
+
+footer{
+    height: 40x;
+    padding: 20px;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #ffffff;
+    text-align: center;
 }
