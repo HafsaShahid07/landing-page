@@ -18,6 +18,8 @@
     align-items: center;
     padding: 15px;
     font-size: 18px;
+    padding-left: 50px;
+    padding-right: 20px;
 }
 
 .nav-bar a {
@@ -51,6 +53,7 @@
 .hero-text {
     font-size: 18px;
     color: #E5E7EB;
+    padding-right:50px ;
 }
 
 
@@ -128,7 +131,7 @@
     align-items: center;
     flex-direction: column;
     padding: 40px;
-    margin: 0 auto;
+    width: 0 auto;
     background-color: #E5E7EB;
 }
 .quote-author{
@@ -136,3 +139,28 @@
     justify-content: end;
 }
 
+/* sign up box */
+.sign-up-box{
+width : 800px;
+padding: 20px;
+border-radius: 10px;
+margin:50px auto;
+display: flex;
+background-color: #3B82F6;
+}
+.sign-up-button{
+    display: flex;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up-box button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3B82F6;
+    color: #ffffff;
+    font-size: 16px;
+    border: 2px solid #E5E7EB;
+}
